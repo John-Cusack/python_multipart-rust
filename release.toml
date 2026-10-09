@@ -16,6 +16,7 @@ schema = 1
 # The lane-canonical repo is therefore `John-Cusack/python_multipart-rust`.
 project = "python_multipart"
 # Rust core crate published to crates.io (`python_multipart-core/Cargo.toml [package] name`).
+rust_crate = "multipart-rust-core"
 # Python distribution published to PyPI (`pyproject.toml [project] name`).
 # MUST differ from `project`: the original name stays with upstream.
 pypi_dist = "python-multipart-rust"
